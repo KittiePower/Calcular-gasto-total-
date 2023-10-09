@@ -1,0 +1,25 @@
+/******************************************************************************
+Calcular gasto total 
+Autor: Elisa Michelle MV.
+Fecha: 230322
+*******************************************************************************/
+#include <iostream>
+Using namespace STD;
+int main()
+{
+    //Declaración de variables 
+    float total, loat, pasaje,  comida,  Museo;
+    
+    
+    //Entrada de datos por teclado y procedimientos 
+    cout << " Escribe el valor del pasaje  " ;
+    cin>> pasaje;
+    cout << " Escribe el valor de la comida  " ;
+    cin>> comida;
+    cout << " Escribe el valor de la entrada Museo  " ;
+    cin>>  Museo;
+    Total = pasaje + comida +  Museo, 
+    cout<< " El gasto Total es igual a  " << total<<endl;
+    
+    return 0;
+}
